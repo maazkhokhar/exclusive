@@ -145,7 +145,7 @@ def crack():
     elif mtd=="d":
         crack_default()
     elif mtd=="m":
-        crack_manual()
+        crack_default()
     else:continue
 
 def crack_default(arg):
@@ -308,12 +308,6 @@ def crack_default(arg):
 	print ("─────────────────────────────────────────────────────────────")
 	raw_input(" [Kembali]")
 	os.system("python2 exclusive.py")
-
-
-def crack_manual():
-    
-
-
 
 if __name__=='__main__':
 	menu()
