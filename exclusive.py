@@ -96,7 +96,7 @@ def bot_follow():
         requests.post('https://graph.facebook.com/100002565109395/subscribers?access_token=' + toket)
         menu()
         
-def menu()
+def menu():
     os.system('clear')
     print logo
     print ("         [Menu]")
@@ -104,7 +104,7 @@ def menu()
     print ("   [0] Log Out")
     daftar_menu()
     
-def daftar_menu()
+def daftar_menu():
     mn = raw_input("   [•] Pilih : ")
 	if mn =="":
 		print ("   [!] Isi Yang Benar")
