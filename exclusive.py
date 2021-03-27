@@ -1,6 +1,7 @@
 #!/usr/bin/python2
 # coding=utf-8
-import os,re,sys,itertools,time,requests,,mechanize,uuid,random,threading,json,random,datetime,hashlib,urllib,cookielib
+
+import os,re,sys,itertools,time,requests,random,threading,json,random
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
