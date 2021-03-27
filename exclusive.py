@@ -106,7 +106,7 @@ def menu():
     
 def daftar_menu():
     mn = raw_input("   [•] Pilih : ")
-	if mn =="":
+	if mn == "":
 		print ("   [!] Isi Yang Benar")
 		daftar_menu()
 	elif mn == "1":
@@ -142,10 +142,10 @@ def crack():
 
     print '   [•] Jumlah ID : '+str(len(id))
     mtd = raw_input("   [•] Crack With Pass Default/Manual [d/m] : ")
-    if mtd=="":continue
-    elif mtd=="d":
+    if mtd == "":continue
+    elif mtd == "d":
         crack_default()
-    elif mtd=="m":
+    elif mtd == "m":
         crack_default()
     else:continue
 
