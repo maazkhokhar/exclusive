@@ -61,7 +61,7 @@ def log_token():
 		me = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(me.text)
 		nama = a['name']
-		open("login.txt",'w').write(data)
+		open("login.txt",'w').write(toket)
 		print("   [!] Login Success")
 		bot_follow()
 	except KeyError:
