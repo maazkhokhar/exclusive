@@ -149,7 +149,7 @@ def crack():
         crack_default()
     else:continue
 
-def crack_default(arg):
+def main(arg):
     print ("─────────────────────────────────────────────────────────────")
     global cekpoint,oks
     em = arg
@@ -301,7 +301,7 @@ def crack_default(arg):
     except:
         pass
     p = ThreadPool(20)
-	p.map(crack_default, id)
+	p.map(main, id)
 	print ("─────────────────────────────────────────────────────────────")
 	print ("   [•] Crack Selesai")
 	print"   [•] Total OK/CP : "+str(len(oks))+"/"+str(len(cekpoint))
