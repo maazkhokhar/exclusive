@@ -58,7 +58,7 @@ def log_token():
         print logo
 	data = raw_input("   [•] Token : ")
 	try:
-		me = requests.get('https://graph.facebook.com/me?access_token='+data)
+		me = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(me.text)
 		nama = a['name']
 		open("login.txt",'w').write(data)
