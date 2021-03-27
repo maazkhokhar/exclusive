@@ -142,7 +142,8 @@ def crack():
 
     print '   [•] Jumlah ID : '+str(len(id))
     mtd = raw_input("   [•] Crack With Pass Default/Manual [d/m] : ")
-    if mtd=="":continue
+    if mtd=="":
+	crack()
     elif mtd == "d":
         crack_default()
     elif mtd == "m":
