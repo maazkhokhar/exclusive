@@ -148,7 +148,8 @@ def crack():
         crack_default()
     elif mtd == "m":
         crack_default()
-    else:continue
+    else:
+	crack()
 
 def main(arg):
     print ("─────────────────────────────────────────────────────────────")
