@@ -313,5 +313,4 @@ def main(arg):
     os.system("python2 exclusive.py")
 
 if __name__=='__main__':
-	menu()
 	log_token()
