@@ -301,7 +301,7 @@ def crack_default(arg):
     except:
         pass
     p = ThreadPool(20)
-	p.map(main, id)
+	p.map(crack_default, id)
 	print ("─────────────────────────────────────────────────────────────")
 	print ("   [•] Crack Selesai")
 	print"   [•] Total OK/CP : "+str(len(oks))+"/"+str(len(cekpoint))
