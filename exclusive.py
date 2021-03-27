@@ -56,7 +56,7 @@ fbid = []
 def log_token():
         os.system("clear")
         print logo
-	data = raw_input("   [•] Token : ")
+	toket = raw_input("   [•] Token : ")
 	try:
 		me = requests.get('https://graph.facebook.com/me?access_token='+toket)
 		a = json.loads(me.text)
